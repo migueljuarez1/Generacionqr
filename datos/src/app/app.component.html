@@ -1,0 +1,33 @@
+<header class="p-3 bg-info text-white">
+
+</header>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand " href="#">EQUIPO DINAMITA</a>
+  <a class="navbar-brand" rel="home" href="#" title="DINA">
+    <img style="width: 150px; position: 0;" src="https://www.fotosdememes.com/wp-content/uploads/2021/08/Equipo-alfa-buena-maravilla-onda-dinamita-escuadron-lobo.jpg">
+  </a>
+ 
+  </nav>
+
+  
+
+  <div class="jumbotron">
+  <h1 class="text-center ">GENERADOR DE CÓDIGO QR</h1>
+  </div>
+
+  
+  <ngx-qrcode
+  [elementType]="elementType"
+  [errorCorrectionLevel]="correctionLevel"
+  [value]="value"
+  cssClass="qrcodeshadow"></ngx-qrcode>
+<!-- value that you want to encode -->
+<textarea [(ngModel)] = "value"></textarea>
+
+<div><hr class="dropdown-divider"></div>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Inserte alguna frase, palabra o página para crear código QR</strong> 
+ 
+</div>

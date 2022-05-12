@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@techiediaries/ngx-qrcode": "^9.1.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
